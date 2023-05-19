@@ -25,6 +25,12 @@ public class Calculadora {
 	public int Divide () {
 		return x / y;
 	}
+	
+	 public static void main(String[] args) {
+        double numero = 16.0;
+        double resultado = calcularRaizCuadrada(numero);
+        System.out.println("La raíz cuadrada de " + numero + " es: " + resultado);
+    }
 
 	@Override
 	public String toString() {

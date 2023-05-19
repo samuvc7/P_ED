@@ -101,6 +101,12 @@ public class Calculadora {
 		}
 		return resta;
 	}
-	
+	// modificación de Ivan Sanz por cuarta vez
+ public String deHexadecimalAOctal(String hex) {
+
+        long decimal = Long.parseLong(hex, 16);
+
+        return Long.toOctalString(decimal);
+    }
 	
 }

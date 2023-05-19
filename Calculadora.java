@@ -16,6 +16,8 @@ public class Calculadora {
 	public int Resta () {
 		return x - y;
 	}
+	
+	
 <<<<<<< HEAD
 	
 	public int Multiplica () {
@@ -25,12 +27,21 @@ public class Calculadora {
 	public int Divide () {
 		return x / y;
 	}
+	
+	// Modificacion Alvaro G
+	
+	public int Potencia() {
+        int result ;
+        for (int i = 2; i <= y; i++) {
+            result *= x;
+        }
+        return result;
+    }
 
 	@Override
 	public String toString() {
 		return "Calculadora [x=" + x + ", y=" + y + ", Suma =" + Suma() + ", Resta =" + Resta() + "]";
 	}
-	
 	
 	
 }

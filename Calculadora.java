@@ -31,6 +31,9 @@ public class Calculadora {
 		return "Calculadora [x=" + x + ", y=" + y + ", Suma =" + Suma() + ", Resta =" + Resta() + "]";
 	}
 	
-	
+	//Jesus
+	public double sacarPorcentaje() {
+        return (x * y) / 100.0;
+    }
 	
 }

@@ -32,6 +32,10 @@ public class Calculadora {
 			return x / y;
 		}
 	}
+	
+	public double potenciaa () {
+            return Math.pow(x, y)
+        }
 
 	@Override
 	public String toString() {

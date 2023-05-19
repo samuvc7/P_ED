@@ -26,6 +26,11 @@ public class Calculadora {
 		return x / y;
 	}
 
+	//Leire Gonzalez Centenera 
+	public int RestaNumerosNegativos() {
+		return y-x; 
+	}
+	
 	@Override
 	public String toString() {
 		return "Calculadora [x=" + x + ", y=" + y + ", Suma =" + Suma() + ", Resta =" + Resta() + "]";

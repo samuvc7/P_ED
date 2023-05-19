@@ -26,10 +26,8 @@ public class Calculadora {
 		return x / y;
 	}
 	
-	 public int raiz {
-             int numero = 16.0;
-             int resultado = calcularRaizCuadrada(numero);
-                System.out.println("La raíz cuadrada de " + numero + " es: " + resultado);
+	public double potencia(double base, double exp) {
+            return Math.pow(base, exp)
     }
 
 	@Override

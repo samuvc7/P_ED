@@ -63,6 +63,10 @@ public class Calculadora {
 		media=media/nums.length;
 		
 		return media;
+		
+		public double potencia() {
+	public double potenciaa () {
+            return Math.pow(x, y)
 	}
 	
 	

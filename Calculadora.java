@@ -26,7 +26,7 @@ public class Calculadora {
 		return x / y;
 	}
 	
-	public double potencia() {
+	public double potenciaa () {
             return Math.pow(x, y)
         }
 

@@ -86,5 +86,21 @@ public class Calculadora {
 	 public double sacarPorcentaje() {
         return (x * y) / 100.0;
     }
+
+	//modificacion Leire Gonzalez
+	public int restaReves(){
+		
+		int resta=0; 
+		
+		if(y<x){
+			System.out.println(" 'y' es menor que 'x', la resta saldra negativa ");
+			resta=y-x;
+		}else{
+			resta=x-y;
+
+		}
+		return resta;
+	}
+	
 	
 }

@@ -26,9 +26,9 @@ public class Calculadora {
 		return x / y;
 	}
 	
-	public double potencia(double base, double exp) {
-            return Math.pow(base, exp)
-    }
+	public double potencia() {
+            return Math.pow(x, y)
+        }
 
 	@Override
 	public String toString() {

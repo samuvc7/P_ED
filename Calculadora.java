@@ -74,5 +74,9 @@ public class Calculadora {
         }
         return result;
     }
+	public double potencia() {
+            return Math.pow(x, y)
+        }
+
 	
 }

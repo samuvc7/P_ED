@@ -65,5 +65,11 @@ public class Calculadora {
 		return media;
 	}
 	
+	//JESUS--Metodo para sacar el porcentaje
+	
+	public double sacarPorcentaje() {
+        return (x * y) / 100.0;
+    }
+	
 	
 }
